@@ -28,13 +28,13 @@
 /**
  * Marlin release version identifier
  */
-//#define SHORT_BUILD_VERSION "2.1.2.4"
+//#define SHORT_BUILD_VERSION "2.1.2.4"                                          // 3vs
 
 /**
  * Verbose version identifier which should contain a reference to the location
  * from where the binary was downloaded or the source code was compiled.
  */
-//#define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION
+#define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION " - 3vs ASWX1"
 
 /**
  * The STRING_DISTRIBUTION_DATE represents when the binary file was built,
@@ -46,7 +46,7 @@
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
  */
-//#define MACHINE_NAME "3D Printer"
+#define MACHINE_NAME "Artillery Sidewinder X1"                                 // 3vs
 
 /**
  * The SOURCE_CODE_URL is the location where users will find the Marlin Source
